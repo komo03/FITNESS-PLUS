@@ -222,6 +222,45 @@ header {
 footer{
     background: linear-gradient(to right, #ffcc00, #ff9900); 
 }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+/* تصاميم للشاشات الصغيرة */
 @media (max-width: 768px) {
     header {
         flex-wrap: nowrap;
